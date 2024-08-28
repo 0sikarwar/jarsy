@@ -17,6 +17,8 @@ module.exports = {
         PrimaryBtnText: "rgb(var(--primary-btn-text))",
         SecBtnBg: "rgb(var(--sec-btn-bg))",
         SecBtnText: "rgb(var(--sec-btn-text))",
+        flipkartColor: "rgb(var(--flipkart-color))",
+        amazonColor: "rgb(var(--amazon-color))",
       },
     },
   },
