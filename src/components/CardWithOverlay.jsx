@@ -23,6 +23,7 @@ const CardWithOverlay = ({
         src={image}
         className="w-full h-full"
         style={{ objectFit: "cover" }}
+        alt=""
       />
       <div
         className="w-full h-full bg-black flex items-center justify-center z-[1] absolute top-0 cursor-pointer opacity-0 hover:opacity-70 transition-opacity duration-700"

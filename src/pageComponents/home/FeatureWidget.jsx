@@ -27,7 +27,7 @@ const FeatureWidget = ({
         }`}
       >
         <div className="h-auto w-4/5 m-auto md:md-0 md:h-[600px] md:w-auto max-w-[600px] flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
-          <Image src={img} />
+          <Image src={img} alt="" />
         </div>
         <div className="flex flex-col justify-center leading-normal align-center w-4/5 md:w-1/2 m-auto md:m-0">
           <div className="">

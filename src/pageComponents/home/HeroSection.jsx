@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <Wrapper className="relative w-screen">
       <div className="absolute h-full w-full top-0 z-[1] before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-black before:opacity-45">
-        <Image src={heroImage} style={{ objectFit: "cover" }} fill />
+        <Image src={heroImage} style={{ objectFit: "cover" }} alt="" fill />
       </div>
       <Container>
         <div className="flex justify-center w-full px-3 py-4 text-TextColor bg-HeaderBg text-center h-[480px] relative">
