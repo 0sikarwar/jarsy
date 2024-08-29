@@ -4,8 +4,10 @@ const Modal = ({ isOpen, onClose, children }) => {
   return (
     <div
       className={`fixed flex items-center justify-center ${
-        isOpen ? "visible z-50 opacity-100" : "z-[-1] invisible opacity-0"
-      } inset-0 bg-gray-900 overflow-y-auto w-full h-full px-4 bg-opacity-60 transition-all duration-1000`}
+        isOpen
+          ? "visible z-50 opacity-100 no-doc-scroll"
+          : "z-[-1] invisible opacity-0"
+      } inset-0 bg-gray-900 overflow-y-auto w-full h-full px-2 md:px-4 bg-opacity-60 transition-all duration-1000`}
     >
       <div className="relative shadow-xl rounded-md bg-white  overflow-hidden">
         <div className="flex justify-end p-2 absolute right-1 top-1 z-[2]">

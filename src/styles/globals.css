@@ -16,3 +16,7 @@
     --amazon-color: 255, 213, 128;
   }
 }
+
+:root:has(.no-doc-scroll) {
+  overflow: hidden;
+}

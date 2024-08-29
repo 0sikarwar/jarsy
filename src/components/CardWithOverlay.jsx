@@ -3,9 +3,22 @@ import React from "react";
 import Text from "./elements/Text";
 import Text2Xl from "./elements/Text2Xl";
 
-const CardWithOverlay = ({ image, mrp, price, type, sizes, urls, onClick }) => {
+const CardWithOverlay = ({
+  image,
+  mrp,
+  price,
+  type,
+  sizes,
+  urls,
+  onClick,
+  className,
+}) => {
   return (
-    <div className="h-[440px] my-4 w-[380px] rounded-md shadow-lg overflow-hidden relative">
+    <div
+      className={`w-64 h-72 md:h-[440px] md:w-[380px] rounded-md shadow-lg overflow-hidden relative ${
+        className || ""
+      }`}
+    >
       <Image
         src={image}
         className="w-full h-full"
