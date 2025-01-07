@@ -2,6 +2,7 @@ import React from "react";
 import TextS from "./elements/TextS";
 import WhatsApp from "@/assets/images/WhatsApp.svg";
 import Link from "next/link";
+import { whatsappUrl } from "@/utils/constants";
 
 const Footer = () => {
   return (
@@ -19,7 +20,7 @@ const Footer = () => {
           </TextS>
           <TextS>
             <a
-              href="https://wa.me/918283844494?text=Hello,%20I%20am%20interested%20in%20learning%20more%20about%20JARSY%20shoes.%20Could%20you%20please%20provide%20more%20information?"
+              href={whatsappUrl}
               className="flex items-center text-green-500 hover:opacity-70"
               target="_blank"
             >
@@ -31,14 +32,17 @@ const Footer = () => {
         <div className="text-center mb-6 text-sm">
           <TextS>
             Email:{" "}
-            <a href="mailto:support@jarsy.com" className="hover:text-gray-400">
-              support@jarsy.com
+            <a
+              href="mailto:customer.service@jarsy.in"
+              className="hover:text-gray-400"
+            >
+              customer.service@jarsy.in
             </a>
           </TextS>
           <TextS>Address: NH-73 Ramgarh, Panchkula Haryana, India</TextS>
         </div>
         <div className="text-center text-xs text-gray-500">
-          <TextS>&copy; 2024 JARSY. All Rights Reserved.</TextS>
+          <TextS>&copy; 2025 JARSY. All Rights Reserved.</TextS>
         </div>
       </div>
     </footer>

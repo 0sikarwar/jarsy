@@ -20,6 +20,9 @@ module.exports = {
         flipkartColor: "rgb(var(--flipkart-color))",
         amazonColor: "rgb(var(--amazon-color))",
       },
+      backgroundImage: {
+        "hero-pattern": "url('../assets/images/home/heroSectionBg.jpg')",
+      },
     },
   },
   plugins: [],

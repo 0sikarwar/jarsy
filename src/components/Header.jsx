@@ -6,6 +6,7 @@ import Wrapper from "@/components/elements/Wrapper";
 import WhatsApp from "@/assets/images/WhatsApp.svg";
 import Text from "./elements/Text";
 import TextS from "./elements/TextS";
+import { whatsappUrl } from "@/utils/constants";
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
           </Text>
           <TextS className="font-semibold hover:opacity-70">
             <a
-              href="https://wa.me/918283844494?text=Hello,%20I%20am%20interested%20in%20learning%20more%20about%20JARSY%20shoes.%20Could%20you%20please%20provide%20more%20information?"
+              href={whatsappUrl}
               className="flex items-center text-green-500"
               target="_blank"
             >

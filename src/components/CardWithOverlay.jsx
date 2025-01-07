@@ -41,29 +41,34 @@ const CardWithOverlay = ({
         <Text className="">
           {type} (Sizes: {sizes})
         </Text>
-        <Text className="align-middle">
-          {urls.map(({ text, key, url }, index) => {
-            let colorClass = "";
-            switch (key) {
-              case "amazon":
-                colorClass = "text-amazonColor";
-                break;
-              case "flipkart":
-                colorClass = "text-flipkartColor";
-                break;
-            }
-            return (
-              <React.Fragment key={index}>
-                <a href={url} className={`${colorClass} hover:brightness-125`}>
-                  {text}
-                </a>
-                {index < urls.length - 1 && (
-                  <span className="mx-1 opacity-70">|</span>
-                )}
-              </React.Fragment>
-            );
-          })}
-        </Text>
+        {urls?.length && (
+          <Text className="align-middle">
+            {urls.map(({ text, key, url }, index) => {
+              let colorClass = "";
+              switch (key) {
+                case "amazon":
+                  colorClass = "text-amazonColor";
+                  break;
+                case "flipkart":
+                  colorClass = "text-flipkartColor";
+                  break;
+              }
+              return (
+                <React.Fragment key={index}>
+                  <a
+                    href={url}
+                    className={`${colorClass} hover:brightness-125`}
+                  >
+                    {text}
+                  </a>
+                  {index < urls.length - 1 && (
+                    <span className="mx-1 opacity-70">|</span>
+                  )}
+                </React.Fragment>
+              );
+            })}
+          </Text>
+        )}
       </div>
     </div>
   );

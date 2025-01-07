@@ -1,7 +1,7 @@
 import FeatureWidget from "@/pageComponents/home/FeatureWidget";
 import HeroSection from "@/pageComponents/home/HeroSection";
-import featureWidget1 from "@/assets/images/home/featureWidget1.webp";
-import featureWidget2 from "@/assets/images/home/featureWidget2.webp";
+import featureWidget1 from "@/assets/images/home/featureWidget1.png";
+import featureWidget2 from "@/assets/images/home/featureWidget2.png";
 import ListingSection from "@/pageComponents/home/ListingSection";
 
 export default function Home() {

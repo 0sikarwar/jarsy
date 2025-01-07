@@ -38,7 +38,7 @@ const ListingSection = () => {
         <div className="invisible w-64 md:w-[380px] " />
       </div>
       <Modal isOpen={selectedCard !== -1} onClose={() => setSelectedCard(-1)}>
-        <div className="relative w-full md:w-[50vw] md:h-[70vh] max-h-[70vh] md:max-h-[600px] md:overflow-hidden overflow-x-scroll">
+        <div className="relative w-full md:w-[50vw] min-h-96 max-h-[70vh] md:max-h-[600px] overflow-x-scroll">
           {selectedCard !== -1 && (
             <>
               <div className="w-[600px] md:w-full md:h-full flex gap-2 md:gap-3 flex-wrap justify-center pt-12 pb-4 overflow-scroll">

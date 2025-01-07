@@ -1,5 +1,5 @@
 import Title from "@/components/elements/Title";
-import heroImage from "@/assets/images/home/heroSection.jpeg";
+import heroImage from "@/assets/images/home/heroSection.png";
 import React from "react";
 import Image from "next/image";
 import Text2Xl from "@/components/elements/Text2Xl";
@@ -10,7 +10,7 @@ import Wrapper from "@/components/elements/Wrapper";
 const HeroSection = () => {
   return (
     <Wrapper className="relative w-screen">
-      <div className="absolute h-full w-full top-0 z-[1] before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-black before:opacity-45">
+      <div className="absolute bg-hero-pattern bg-contain h-full w-full top-0 z-[1] before:absolute before:left-0 before:right-0 before:top-0 before:z-10 before:h-full before:w-full before:bg-black before:opacity-45">
         <Image src={heroImage} style={{ objectFit: "cover" }} alt="" fill />
       </div>
       <Container>
