@@ -46,11 +46,12 @@ const ListingSection = () => {
                   return (
                     <Image
                       src={image}
-                      alt=""
+                      alt={shoesData[selectedCard].type}
                       className="w-44 h-52 md:w-[280px] md:h-80 rounded-md border-[0.5px] hover:shadow-xl hover:scale-[1.02] transition-transform duration-00 border-gray-300 cursor-pointer"
                       style={{ objectFit: "cover" }}
                       key={index}
                       onClick={() => handleImageClick(index)}
+                      title={shoesData[selectedCard].type}
                     />
                   );
                 })}
@@ -86,9 +87,10 @@ const ListingSection = () => {
                           >
                             <Image
                               src={image}
-                              alt=""
+                              alt={shoesData[selectedCard].type}
                               className="w-full h-full"
                               style={{ objectFit: "contain" }}
+                              title={shoesData[selectedCard].type}
                             />
                           </div>
                         );

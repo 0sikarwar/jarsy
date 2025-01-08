@@ -21,19 +21,24 @@ const HeroSection = () => {
               walk proud, walk <span className="text-orange-400">In</span>di
               <span className="text-green-500">an</span>
             </Heading>
-            <Text2Xl className="font-semibold md:leading-normal tracking-wider">
-              JARSY shoes are the perfect blend of{" "}
-              <span className="text-[#d6b0e4]">comfort</span> and{" "}
-              <span className="text-[#ff3c6d]">style</span>. Our shoes are
-              designed & proudly{" "}
-              <span className="text-sky-400">made in India</span> using{" "}
-              <span className="text-[#ffc899]">high-quality</span> materials to
-              help you walk with{" "}
-              <span className="text-[#50c878]">confidence</span> and{" "}
-              <span className="text-[#ffd700]">pride</span>. Shop our collection
-              today and experience the JARSY{" "}
-              <span className="text-[#7fff00]">difference</span>.
-            </Text2Xl>
+            <div>
+              <h1 className="text-xl md:text-2xl font-semibold md:leading-normal tracking-wider inline">
+                JARSY shoes and sneakers
+              </h1>{" "}
+              <Text2Xl className="font-semibold md:leading-normal tracking-wider inline">
+                are the perfect blend of{" "}
+                <span className="text-[#d6b0e4]">comfort</span> and{" "}
+                <span className="text-[#ff3c6d]">style</span>. Our shoes are
+                designed & proudly{" "}
+                <span className="text-sky-400">made in India</span> using{" "}
+                <span className="text-[#ffc899]">high-quality</span> materials
+                to help you walk with{" "}
+                <span className="text-[#50c878]">confidence</span> and{" "}
+                <span className="text-[#ffd700]">pride</span>. Shop our
+                collection today and experience the JARSY{" "}
+                <span className="text-[#7fff00]">difference</span>.
+              </Text2Xl>
+            </div>
           </div>
         </div>
       </Container>
