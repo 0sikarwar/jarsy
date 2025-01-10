@@ -41,7 +41,7 @@ const ListingSection = () => {
         <div className="relative w-full md:w-[50vw] min-h-96 max-h-[70vh] md:max-h-[600px] overflow-x-scroll">
           {selectedCard !== -1 && (
             <>
-              <div className="w-[600px] md:w-full md:h-full flex gap-2 md:gap-3 flex-wrap justify-center pt-12 pb-4 overflow-scroll">
+              <div className="w-[600px] md:w-full md:h-full flex gap-2 md:gap-3 flex-wrap pt-12 pb-4 overflow-scroll px-4">
                 {galleryData[selectedCard].map((image, index) => {
                   return (
                     <Image

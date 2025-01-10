@@ -3,6 +3,7 @@ import HeroSection from "@/pageComponents/home/HeroSection";
 import featureWidget1 from "@/assets/images/home/featureWidget1.png";
 import featureWidget2 from "@/assets/images/home/featureWidget2.png";
 import ListingSection from "@/pageComponents/home/ListingSection";
+import WhyChoose from "@/pageComponents/home/WhyChoose";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         subHeading="Experience Elegant Style with JARSY Shoes and Sneakers"
       />
       <ListingSection />
+      <WhyChoose />
     </div>
   );
 }
