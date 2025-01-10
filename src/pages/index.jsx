@@ -21,7 +21,7 @@ export default function Home() {
         color="#fff2e6"
         wrapperClass="md:mt-[-20px]"
         title="Style that Speaks"
-        desc="JARSY shoes and sneakers offer the perfect blend of style, comfort, and craftsmanship. Designed for versatility, our premium footwear enhances any outfit with superior quality and modern designs. Crafted for all-day wear, JARSY combines cushioned soles with lasting durability. Elevate your everyday style with JARSY’s innovative footwear."
+        desc="JARSY shoes and sneakers offer the perfect blend of style, comfort, and craftsmanship. Designed for versatility, our premium footwear enhances any outfit with superior quality and modern designs. Crafted for all-day wear, JARSY combines cushioned soles with lasting durability. Elevate your everyday style with JARSY's innovative footwear."
         subHeading="Experience Elegant Style with JARSY Shoes and Sneakers"
       />
       <ListingSection />

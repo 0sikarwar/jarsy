@@ -39,9 +39,9 @@ const WhyChooseSection = () => {
             Why Choose JARSY?
           </Heading>
           <TextL className=" text-gray-600 max-w-3xl mx-auto">
-            At JARSY, we're not just crafting shoes – we're revolutionizing
-            Indian footwear with passion and purpose. Our commitment to
-            excellence shines through every pair we create.
+            At JARSY, we&apos;re not just crafting shoes {"-"} we&apos;re
+            revolutionizing Indian footwear with passion and purpose. Our
+            commitment to excellence shines through every pair we create.
           </TextL>
         </div>
 
@@ -66,11 +66,11 @@ const WhyChooseSection = () => {
 
         <div className="mt-12 text-center">
           <Text className="text-gray-700 max-w-3xl mx-auto">
-            When you choose JARSY, you're not just wearing shoes – you're
-            stepping into a legacy of Indian excellence, supporting local
-            craftsmanship, and making a statement about sustainable, ethical
-            fashion. Experience the perfect blend of comfort, style, and pride
-            with every step you take in JARSY shoes.
+            When you choose JARSY, you&apos;re not just wearing shoes {"- "}
+            you&apos;re stepping into a legacy of Indian excellence, supporting
+            local craftsmanship, and making a statement about sustainable,
+            ethical fashion. Experience the perfect blend of comfort, style, and
+            pride with every step you take in JARSY shoes.
           </Text>
         </div>
       </Container>
