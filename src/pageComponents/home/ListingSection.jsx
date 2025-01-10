@@ -41,18 +41,23 @@ const ListingSection = () => {
         <div className="relative w-full md:w-[50vw] min-h-96 max-h-[70vh] md:max-h-[600px] overflow-x-scroll">
           {selectedCard !== -1 && (
             <>
-              <div className="w-[600px] md:w-full md:h-full flex gap-2 md:gap-3 flex-wrap pt-12 pb-4 overflow-scroll px-4">
+              <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-12 pb-4 overflow-scroll px-2">
                 {galleryData[selectedCard].map((image, index) => {
                   return (
-                    <Image
-                      src={image}
-                      alt={shoesData[selectedCard].type}
-                      className="w-44 h-52 md:w-[280px] md:h-80 rounded-md border-[0.5px] hover:shadow-xl hover:scale-[1.02] transition-transform duration-00 border-gray-300 cursor-pointer"
-                      style={{ objectFit: "cover" }}
+                    <div
                       key={index}
-                      onClick={() => handleImageClick(index)}
-                      title={shoesData[selectedCard].type}
-                    />
+                      className="aspect-square relative overflow-hidden rounded-md"
+                    >
+                      <Image
+                        src={image}
+                        alt={shoesData[selectedCard].type}
+                        className="w-full h-full rounded-md border-[0.5px] hover:shadow-xl hover:scale-[1.02] transition-transform duration-00 border-gray-300 cursor-pointer"
+                        style={{ objectFit: "cover" }}
+                        key={index}
+                        onClick={() => handleImageClick(index)}
+                        title={shoesData[selectedCard].type}
+                      />
+                    </div>
                   );
                 })}
               </div>
