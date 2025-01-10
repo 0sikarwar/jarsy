@@ -1,8 +1,9 @@
 import React from "react";
 import TextS from "./elements/TextS";
 import WhatsApp from "@/assets/images/WhatsApp.svg";
+import Instagram from "@/assets/images/instagram.svg";
 import Link from "next/link";
-import { whatsappUrl } from "@/utils/constants";
+import { instaUrl, whatsappUrl } from "@/utils/constants";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
         <div className="flex flex-col items-center text-center mb-3">
           <TextS className="text-sm">JARSY: walk proud, walk Indian</TextS>
         </div>
-        <div className="flex justify-center gap-6 md:w-1/2 w-full px-3 text-TextColor mx-auto mb-3">
+        <div className="flex justify-center gap-3 md:gap-6 md:w-1/2 w-full px-3 text-TextColor mx-auto mb-3">
           <TextS className="hover:text-gray-400">
             <Link href="/">Home</Link>
           </TextS>
@@ -26,6 +27,16 @@ const Footer = () => {
             >
               <WhatsApp className="w-6 h-6 mr-2" />
               Chat with us
+            </a>
+          </TextS>
+          <TextS>
+            <a
+              href={instaUrl}
+              className="flex items-center text-[#cd5c5c] hover:opacity-70"
+              target="_blank"
+            >
+              <Instagram className="w-6 h-6 mr-2" />
+              Follow us
             </a>
           </TextS>
         </div>

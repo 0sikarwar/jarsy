@@ -9,7 +9,26 @@ export default function Document() {
           name="description"
           content="Discover JARSY Shoes for men and women, proudly made in India. Our collection offers high-quality, comfortable, and stylish footwear for all occasion. Shop now!"
         />
-        <link rel="canonical" href="https://www.jarsy.in" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="canonical" href="https://jarsy.in" />
         <meta property="og:image" content={ogImageUrl} />
         <meta
           property="og:image:alt"
@@ -27,7 +46,7 @@ export default function Document() {
           content="Discover JARSY Shoes for men and women, proudly made in India. Our collection offers high-quality, comfortable, and stylish footwear for all occasion. Shop now!"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.jarsy.in" />
+        <meta property="og:url" content="https://jarsy.in" />
       </Head>
       <body>
         <Main />
