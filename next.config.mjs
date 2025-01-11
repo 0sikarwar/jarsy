@@ -10,6 +10,14 @@ const nextConfig = {
 
     return config;
   },
+  async rewrites() {
+    return [
+      {
+        source: "/share",
+        destination: "https://g.page/r/CaUiPo6aPVQvEAE/review",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
