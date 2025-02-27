@@ -6,6 +6,10 @@ export default function Document() {
       <Head>
         <title>JARSY: High-Quality, Comfortable Footwear Made in India</title>
         <meta
+          name="facebook-domain-verification"
+          content="1zapzin03jjqn89xjuwqa8j5g5uilt"
+        />
+        <meta
           name="description"
           content="Discover JARSY Shoes for men and women, proudly made in India. Our collection offers high-quality, comfortable, and stylish footwear for all occasion. Shop now!"
         />

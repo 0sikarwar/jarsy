@@ -42,8 +42,8 @@ const CardWithOverlay = ({
           {type} (Sizes: {sizes})
         </Text>
         {urls?.length && (
-          <Text className="align-middle">
-            {urls.map(({ text, key, url }, index) => {
+          <Text className="align-middle flex mt-2">
+            {urls.map(({ text, key, url, icon }, index) => {
               let colorClass = "";
               switch (key) {
                 case "amazon":
@@ -52,14 +52,18 @@ const CardWithOverlay = ({
                 case "flipkart":
                   colorClass = "text-flipkartColor";
                   break;
+                case "whatsapp":
+                  colorClass = "text-green-500";
+                  break;
               }
               return (
                 <React.Fragment key={index}>
                   <a
                     href={url}
-                    className={`${colorClass} hover:brightness-125`}
+                    className={`${colorClass} hover:brightness-125 flex align-middle`}
+                    target="_blank"
                   >
-                    {text}
+                    {icon} {text}
                   </a>
                   {index < urls.length - 1 && (
                     <span className="mx-1 opacity-70">|</span>

@@ -42,6 +42,12 @@ const Footer = () => {
         </div>
         <div className="text-center mb-6 text-sm">
           <TextS>
+            Phone:{" "}
+            <a href="tel:+919872078281" className="hover:text-gray-400">
+              +919872078281
+            </a>
+          </TextS>
+          <TextS>
             Email:{" "}
             <a
               href="mailto:customer.service@jarsy.in"
@@ -50,7 +56,15 @@ const Footer = () => {
               customer.service@jarsy.in
             </a>
           </TextS>
-          <TextS>Address: NH-73 Ramgarh, Panchkula Haryana, India</TextS>
+          <TextS>
+            Address:{" "}
+            <a
+              href="https://maps.app.goo.gl/rQMoHMLzyEVezEGc6"
+              className="hover:text-gray-400"
+            >
+              NH-73 Ramgarh, Panchkula Haryana, India
+            </a>
+          </TextS>
         </div>
         <div className="text-center text-xs text-gray-500">
           <TextS>&copy; 2025 JARSY. All Rights Reserved.</TextS>

@@ -10,11 +10,22 @@ const nextConfig = {
 
     return config;
   },
-  async rewrites() {
+  async redirects() {
     return [
       {
         source: "/share",
         destination: "https://g.page/r/CaUiPo6aPVQvEAE/review",
+        permanent: false,
+      },
+      {
+        source: "/direction",
+        destination: "https://maps.app.goo.gl/rQMoHMLzyEVezEGc6",
+        permanent: false,
+      },
+      {
+        source: "/get-directions",
+        destination: "https://maps.app.goo.gl/rQMoHMLzyEVezEGc6",
+        permanent: false,
       },
     ];
   },

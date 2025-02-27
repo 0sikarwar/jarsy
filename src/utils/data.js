@@ -16,6 +16,7 @@ import shoes3_3 from "@/assets/images/gallery/shoes3/shoes3_3.jpeg";
 import shoes3_4 from "@/assets/images/gallery/shoes3/shoes3_4.jpeg";
 import shoes3_5 from "@/assets/images/gallery/shoes3/shoes3_5.jpeg";
 import shoes3_6 from "@/assets/images/gallery/shoes3/shoes3_6.jpeg";
+import WhatsApp from "@/assets/images/WhatsApp.svg";
 
 export const shoesData = [
   {
@@ -24,18 +25,14 @@ export const shoesData = [
     price: "1,349",
     type: "Unisex's Sneakers",
     sizes: "7,8,9,10",
-    // urls: [
-    //   {
-    //     text: "Amazon",
-    //     key: "amazon",
-    //     url: "#",
-    //   },
-    //   {
-    //     text: "Flipkart",
-    //     key: "flipkart",
-    //     url: "#",
-    //   },
-    // ],
+    urls: [
+      {
+        text: "Buy now",
+        key: "whatsapp",
+        url: "https://wa.me/p/9541318769240665/919872078281",
+        icon: <WhatsApp className="w-6 h-6 mr-1" />,
+      },
+    ],
   },
   {
     image: shoes2,
@@ -43,18 +40,14 @@ export const shoesData = [
     price: "1,349",
     type: "Unisex's Sneakers",
     sizes: "7,8,9,10",
-    // urls: [
-    //   {
-    //     text: "Amazon",
-    //     key: "amazon",
-    //     url: "#",
-    //   },
-    //   {
-    //     text: "Flipkart",
-    //     key: "flipkart",
-    //     url: "#",
-    //   },
-    // ],
+    urls: [
+      {
+        text: "Buy now",
+        key: "whatsapp",
+        url: "https://wa.me/p/9214559198581994/919872078281",
+        icon: <WhatsApp className="w-6 h-6 mr-1" />,
+      },
+    ],
   },
   {
     image: shoes3,
@@ -62,18 +55,14 @@ export const shoesData = [
     price: "1,649",
     type: "Casual Sports Shoes",
     sizes: "7,8,9,10",
-    // urls: [
-    //   {
-    //     text: "Amazon",
-    //     key: "amazon",
-    //     url: "#",
-    //   },
-    //   {
-    //     text: "Flipkart",
-    //     key: "flipkart",
-    //     url: "#",
-    //   },
-    // ],
+    urls: [
+      {
+        text: "Buy now",
+        key: "whatsapp",
+        url: "https://wa.me/p/23933832479540393/919872078281",
+        icon: <WhatsApp className="w-6 h-6 mr-1" />,
+      },
+    ],
   },
   // {
   //   image: shoes4,
