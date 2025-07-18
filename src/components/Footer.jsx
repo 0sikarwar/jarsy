@@ -24,6 +24,7 @@ const Footer = () => {
               href={whatsappUrl}
               className="flex items-center text-green-500 hover:opacity-70"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <WhatsApp className="w-6 h-6 mr-2" />
               Chat with us
@@ -34,6 +35,7 @@ const Footer = () => {
               href={instaUrl}
               className="flex items-center text-[#cd5c5c] hover:opacity-70"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <Instagram className="w-6 h-6 mr-2" />
               Follow us
@@ -68,6 +70,29 @@ const Footer = () => {
         </div>
         <div className="text-center text-xs text-gray-500">
           <TextS>&copy; 2025 JARSY. All Rights Reserved.</TextS>
+        </div>
+        <div className="text-center mt-2">
+          <div className="flex flex-wrap justify-center gap-2 text-[11px] text-gray-400">
+            <Link href="/help/terms" className="hover:text-gray-300">
+              Terms &amp; Conditions
+            </Link>
+            <span>|</span>
+            <Link href="/help/privacypolicy" className="hover:text-gray-300">
+              Privacy Policy
+            </Link>
+            <span>|</span>
+            <Link href="/help/refundpolicy" className="hover:text-gray-300">
+              Refund Policy
+            </Link>
+            <span>|</span>
+            <Link href="/help/returnpolicy" className="hover:text-gray-300">
+              Return Policy
+            </Link>
+            <span>|</span>
+            <Link href="/help/shipping" className="hover:text-gray-300">
+              Shipping Policy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
